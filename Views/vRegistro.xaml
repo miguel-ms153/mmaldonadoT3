@@ -3,10 +3,18 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="mmaldonadoT3.Views.vRegistro"
              Title="vRegistro">
-    
-    
-    
-    <VerticalStackLayout>
+
+
+    <!--ESTILO EXPLICITO-->
+    <ContentPage.Resources>
+        <Style TargetType="Entry">
+            <Setter Property= "Background" Value="BlueViolet"/>
+            <Setter Property="TextColor" Value="Yellow"/>
+        </Style>
+
+    </ContentPage.Resources>
+
+            <VerticalStackLayout>
         <Label 
             Text="Registro de Usuario"
             FontSize="20"
