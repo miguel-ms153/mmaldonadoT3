@@ -3,6 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="mmaldonadoT3.Views.vRegistro"
              Title="vRegistro">
+    
+    
+    
     <VerticalStackLayout>
         <Label 
             Text="Registro de Usuario"
